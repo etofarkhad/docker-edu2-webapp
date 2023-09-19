@@ -31,12 +31,10 @@ TimeApp - это простое веб-приложение, полностью 
 1. Установите Docker и Docker Compose, если они не установлены.
 2. Перейдите в корневую папку проекта.
 3. Запустите приложение с помощью следующей команды:
-
-```bash
-docker-compose up
+4. docker-compose up
 
 
-Приложение будет доступно по адресу http://localhost:ваш_порт, где "ваш_порт" - порт, указанный в Docker Compose файле.
+Приложение будет доступно по адресу http://localhost:3000, где "3000" - порт, указанный в Docker Compose файле.
 
 ### Доступ к базе данных
 
@@ -92,11 +90,11 @@ To run the application within a Docker environment, follow these steps:
 2.Navigate to the root folder of the project.
 3. Start the application using the following command:
 
-```bash
+
 docker-compose up
 
 
-The application will be available at http://localhost:your_port, where "your_port" is the port specified in the Docker Compose file.
+The application will be available at http://localhost:3000, where "3000" is the port specified in the Docker Compose file.
 
 Database Access
 
