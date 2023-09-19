@@ -1,5 +1,5 @@
 README_RUS
-
+(Я делал только Dockerfile и docker-compose.yml)
 TimeApp - это простое веб-приложение, полностью настроенное для разработки в режиме DEV с поддержкой Hot Reload на бэкенде.
 
 Описание
@@ -36,7 +36,7 @@ TimeApp - это простое веб-приложение, полностью 
 
 Приложение будет доступно по адресу http://localhost:3000, где "3000" - порт, указанный в Docker Compose файле.
 
-### Доступ к базе данных
+Доступ к базе данных
 
 Доступ к базе данных MySQL осуществляется через [Adminer](https://www.adminer.org/), который также интегрирован в Docker Compose.
 
@@ -53,7 +53,7 @@ TimeApp - это простое веб-приложение, полностью 
 
 
 README_ENG
-
+(I've only done Dockerfile and docker-compose.yml )
 
  TimeApp
 
@@ -78,7 +78,7 @@ This application enables users to view the current time and save it for later ac
 
 Please note: Hot Reload on the backend is enabled, allowing you to make changes and see them without the need to rebuild the container. However, Hot Reload is disabled on the Frontend, and changes made through local files will require a container rebuild to take effect.
 
-## Docker Setup
+ Docker Setup
 
 For easy deployment, Docker files and Docker Compose files are included. The database is also set up through Docker Compose.
 
